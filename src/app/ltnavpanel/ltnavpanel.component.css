@@ -1,0 +1,20 @@
+
+.lt-navpanel-header{
+    font-size: 1em;
+    font-weight: bold;
+    color: steelblue;
+}
+
+.lt-navpanel-menu{
+    background-color: rgba(255, 239, 213, 0.276);
+} 
+
+.lt-navpanel-menuitem{
+    font-weight: bold;
+    color: steelblue;
+    font-size: 0.7em;
+} 
+/* a {
+    color: #598ef0; 
+    font-size: 0.8rem;
+} */

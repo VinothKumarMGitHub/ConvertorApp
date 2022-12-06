@@ -1,0 +1,21 @@
+    <as-split class="lt-spliteditor-main" direction="horizontal">
+		<as-split-area [size]="50">
+			<ace-editor
+				#sourceEditor  
+				[theme] = 'editorTheme'
+				[mode] = 'editorValue.sourceMode'
+				[text] = 'editorValue.sourceValue'
+				(textChanged) = "onSourceValueChanged($event)"
+				class="lt-spliteditor">
+		</ace-editor>
+		</as-split-area>
+		<as-split-area [size]="50">
+			<ace-editor
+						#destinationEditor  
+						[theme] = 'editorTheme'
+						[mode] = 'editorValue.destMode'
+						[text] = 'editorValue.destValue'
+						class="lt-spliteditor">
+					</ace-editor>
+		</as-split-area>
+	</as-split>

@@ -1,0 +1,6 @@
+{
+    "themeName" : "eclipse",
+    "convertor_domain": "https://vyv0o4c197.execute-api.us-east-1.amazonaws.com/",
+    "convertor_jsontocs": "Stage/convertor/json2csharp",
+    "convertor_jsontoxml": "Stage/convertor/json2xml"
+}
